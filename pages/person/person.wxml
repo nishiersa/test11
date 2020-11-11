@@ -1,0 +1,23 @@
+<view class="page">
+        <view class="banner">
+            <swiper indicator-dots="ture"  autoplay="true" interval="5000" duration="1000">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                <image src="{{item}}" class="pic"/>
+                </swiper-item>
+            </block>
+            </swiper>
+        </view>
+<view class="body"><text>
+我叫郭亚亚，很高兴能够参见贵公司的面试，下面我就艰难的介绍一下我自己：
+1、对前端这块比较感兴趣，会主动阅读一些前端技术博客、简书、思否、知乎等；
+2、具有良好的文档阅读能力，善于接受新技术；
+3、责任感较强，服从上级命令，完成好上级交代的任务；
+4、能很快的融入集体，有团队精神和集体荣誉感；
+5、抗压能力较强，能够很好的管理情绪。
+
+</text>
+点击右侧,联系客服=><contact-button size="27"></contact-button>
+</view>
+
+    </view>
